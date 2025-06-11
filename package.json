@@ -1,0 +1,29 @@
+{
+  "name": "main",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Automatización de correos de bienvenida para nuevos suscriptores segmentados.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["AWS", "Pinpoint", "Node.js", "Redshift", "automatización", "suscriptores"],
+  "author": "author",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-pinpoint": "^3.687.0",
+    "@aws-sdk/client-s3": "^3.689.0",
+    "@aws-sdk/client-sesv2": "^3.687.0",
+    "@aws-sdk/credential-providers": "^3.687.0",
+    "async": "^3.2.6",
+    "csv": "^6.3.10",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "md5": "^2.3.0",
+    "moment": "^2.30.1",
+    "pg": "^8.13.1",
+    "underscore": "^1.13.7"
+  }
+}
